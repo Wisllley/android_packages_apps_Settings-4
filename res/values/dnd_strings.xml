@@ -83,6 +83,7 @@
 
     <!-- Toast Animation -->
     <string name="toast_animation_title">Toast animation</string>
+    <string name="toast_animation_test">Toast Test</string>
     <string name="toast_none_animation">None</string>
     <string name="toast_default_animation">Default</string>
     <string name="toast_fade_animation">Fade</string>
