@@ -54,6 +54,25 @@
         android:summary="@string/qs_battery_easy_toggle_summary"
         android:defaultValue="false" />
 
+    <PreferenceCategory
+        android:key="weather_category"
+        android:title="@string/qs_omnijaws_category">
+
+        <PreferenceScreen
+            android:title="@string/weather_config_title"
+            android:summary="@string/weather_config_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="org.omnirom.omnijaws"
+                    android:targetClass="org.omnirom.omnijaws.SettingsActivityService" />
+        </PreferenceScreen>
+
+        <ListPreference
+            android:key="weather_icon_pack"
+            android:title="@string/weather_icon_pack_title"
+            android:persistent="false" />
+
+    </PreferenceCategory>
+
     <ListPreference
         android:key="sysui_qqs_count_key"
         android:title="@string/sysui_qqs_count_title"
